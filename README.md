@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Supply Chain Management
+
+This project is a simple supply chain management system built with a smart contract on the Ethereum blockchain and a front-end using React.
+
+## Project Description
+
+The Supply Chain Management system allows users to create products, change their states, and transfer ownership of products on the blockchain.
+
+## Setup Instructions
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+
+- Node.js
+- npm
+- MetaMask extension for your browser
+- An Ethereum wallet with Sepolia testnet ETH
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/Sudarson2021/supply-chain-management.git
+   cd supply-chain-management/supply-chain-client
+
+Usage
+Create Product
+Connect your MetaMask wallet.
+Enter the product name and description.
+Click "Create Product".
+Change Product State
+Enter the product ID and select the new state (0: Created, 1: InTransit, 2: Delivered).
+Click "Change State".
+Transfer Product Ownership
+Enter the product ID and the new owner's address.
+Click "Transfer Ownership".
